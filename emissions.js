@@ -25,8 +25,6 @@ function type() {
   }
 }
 
-
-
 function calcEmissions() {
   const kwh = document.getElementById('kwh').value
   const gal = document.getElementById('gal').value
@@ -45,18 +43,6 @@ function calcEmissions() {
     " electricity use alone. <br><br>" + html + treehtml + acrehtml;
   document.getElementById('calc').innerHTML =
     (res || res === 0) ? annualco2 : "<br><br><h1>Please enter numbers only</h1>"
-  // const trees = Math.round((res / 48)).toLocaleString()
-  // const acreage = Number(trees) / 200
-  // const html = "It would take "
-  // const treehtml = trees + " trees or"
-  // const acrehtml = acreage + " acres of forest land to offset your footprint."
-  // document.getElementById('title').innerHTML =
-  // (res || res === 0) ? html : "";
-  // document.getElementById('offset').innerHTML =
-  // (res || res === 0) ? treehtml : "0 trees";
-  // document.getElementById('acre').innerHTML =
-  // (res || res === 0) ? acrehtml : "0 acres of forest";
-
 }
 
 for (var i = 0; i < document.querySelectorAll("#state").length; i++) {
