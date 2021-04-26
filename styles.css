@@ -1,0 +1,95 @@
+.main{
+  position: fixed;
+  width: 100%;
+  height: 40px;
+}
+input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.row {
+  margin-bottom: 25px;
+  text-align: center;
+
+}
+
+label{
+  width: 100%;
+}
+
+.input{
+  width: 100%;
+  text-align: left;
+}
+.section2{
+  width: 70%;
+  padding-top: 25px;
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #000000;
+  display: inline-block;
+  text-align: center;
+}
+.info{
+  width: 70%;
+  padding-top: 25px;
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #000000;
+  display: inline-block;
+}
+body{
+  margin-top: 0;
+  text-align: center;
+}
+.al:hover,.ak:hover,.ar:hover,.az:hover,
+.ca:hover,.co:hover,.ct:hover,.de:hover,
+.fl:hover,.ga:hover,.hi:hover,.id:hover,
+.il:hover,.in:hover,.ia:hover,.ks:hover,
+.ky:hover,.la:hover,.me:hover,.md:hover,
+.ma:hover,.mn:hover,.mi:hover,.ms:hover,
+.mo:hover,.ne:hover,.nv:hover,.nh:hover,
+.nj:hover,.nm:hover,.ny:hover,.nd:hover,
+.nc:hover,.oh:hover,.ok:hover,.mt:hover,
+.or:hover,.pa:hover,.ri:hover,.sd:hover,
+.sc:hover,.tn:hover,.tx:hover,.ut:hover,
+.vt:hover,.va:hover,.wa:hover,.wv:hover,
+.wi:hover,.wy:hover,.dc:hover{
+  fill: #44dd77;
+}
+
+.instr{
+  text-align: left;
+  font-size: .8rem;
+  margin-top: 80px;
+}
+
+h1,h2,h3{
+  font-family: 'Roboto';
+}
+
+span, label{
+  font-size:.8rem;
+  color: black;
+}
+.hr{
+  margin-top: 50px;
+}
+.city {
+  text-align: left
+}
+
+
+
+.calc{
+  float:right;
+  margin-right: 10px;
+  width: 45%;
+}
+.result{
+  margin-top: 30px;
+}
+.page{
+  float:left;
+  margin-left: 80px;
+}
